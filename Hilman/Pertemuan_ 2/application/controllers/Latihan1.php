@@ -7,7 +7,7 @@ class Latihan1 extends CI_Controller
 
 	}
 
-	public  function penjumlahan($n1, $n2)
+	public  function penjumlahan($n1 = null, $n2 =null)
 	{
 		$this -> load->model('Model_latihan1');
 
